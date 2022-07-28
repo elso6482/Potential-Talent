@@ -17,6 +17,6 @@ After the creation of short list, we then employ a review procedure.
 
 # Re-ranking
 
-The list will be re-ranked if a candidate is chosen. The selected candidate will be considered as ideal candidate and a new ranking will be gnerated based on the information of the ideal candidate.
+The list will be re-ranked if a candidate is chosen. The selected candidate will be considered as ideal candidate and a new ranking will be generated based on the information of the ideal candidate.
 
 The distance between the location of the ideal candidate and the location of other candidate will be one of the critiria for the new ranking. The closer the location, the higher is the rank. A new combined similarity score is also computed using the title of the ideal candidate.
