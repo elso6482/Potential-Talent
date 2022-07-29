@@ -9,6 +9,10 @@ In order to find out the best match to the search key words, four similarity cal
 
 Combined similarity metric is obtained from the mixed ratio of the four similarity score.
 
+![image](https://user-images.githubusercontent.com/62399559/181516413-ac081c94-6a89-4033-be92-93704de2dac9.png)![image](https://user-images.githubusercontent.com/62399559/181516625-3ff5d800-1b2e-40c6-972a-4910f6fb2754.png)
+
+
+
 To determine the threshold of each similarity measure, we create pareto plots for every similarity calculation. We want to create a short list that include at least the top 20% candidate. Therefore, we need to decide the cut-off point from the pareto plot. For fuzzy similarity, we choose 80%; For Jaccard similarity, we choose 70%, For Cosine similarity, we choose 60%; For Euclidean distance, we choose 1
 
 ![image](https://user-images.githubusercontent.com/62399559/181297253-786e50c5-b410-45ef-985a-afc09347d156.png)
